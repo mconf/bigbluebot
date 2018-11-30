@@ -1,9 +1,9 @@
 {
   "name": "bigbluebot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BigBlueButton bots",
   "scripts": {
-    "start": "node run.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/pedrobmarin/bigbluebot/issues"
   },
-  "homepage": "https://github.com/pedrobmarin/bigbluebot#readme"
+  "homepage": "https://github.com/pedrobmarin/bigbluebot#readme",
+  "main": "index.js",
+  "files": [
+    "./lib",
+    "./config",
+  ],
 }

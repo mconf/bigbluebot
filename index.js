@@ -1,14 +1,14 @@
 /**
- * @name Run
+ * @name Index
  *
  * @desc Dispatch an HTML5 bot script
  */
 
 const action = require('./lib/action.js')
-const bigbluebot = require('./lib/bigbluebot.js')
+const run = require('./lib/run.js')
 
 let actions = async (page, id) => {
-  await action.audio.microphone(page)
+  // Include bot actions here
 }
 
-bigbluebot(actions)
+run(actions)
