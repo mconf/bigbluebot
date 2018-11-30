@@ -11,6 +11,7 @@ A BigBlueButton server with `bbb-demo` installed
 ## Instructions
 
 `git clone https://github.com/pedrobmarin/bigbluebot.git`
+
 `npm install`
 
 Set your BigBlueButton server URL as the `HOST` at `config.json`
