@@ -1,0 +1,70 @@
+{
+  "url": {
+    "host": HOST,
+    "demo": "/demo/demoHTML5.jsp?action=create",
+    "userTag": "&username=",
+    "user": "Boty McBotface",
+    "moderatorTag": "&isModerator=",
+    "moderator": true,
+    "meetingTag": "&meetingname=",
+    "meeting": "Demo Meeting"
+  },
+  "bot": {
+    "population": 1,
+    "wait": 2000,
+    "lifespan": 60000
+  },
+  "browser": {
+    "headless": true,
+    "pool": {
+      "population": 1,
+      "size": {
+        "min": 1,
+        "max": 10
+      }
+    }
+  },
+  "data": {
+    "chat": [
+      "Siga em frente...",
+      "... olhe para o lado",
+      "Se liga no mestiço...",
+      "... na batida do cavaco"
+    ],
+    "note": [
+      "Quero ver o som de Bob Marley sacudindo o partideiro...",
+      "O reggae da Jamaica no embolada...",
+      "Eu vou mostrar pro mundo inteiro...",
+      "Mundo inteiro!"
+    ],
+    "whiteboard": {
+      "distance": 10,
+      "text": [
+        "Vamos passo a passo outra vez 1, 2, 3",
+        "Vou pôr no remelexo vocês 1, 2, 3",
+        "É fácil de aprender, é só se resolver",
+        "Se liga no mestiço que agora ele chegou de vez"
+      ],
+      "pencil": {
+        "points": 5
+      }
+    },
+    "audio": "/media/audio.wav",
+    "video": "/media/video.y4m"
+  },
+  "screenshot": {
+    "enabled": false,
+    "path": "/tmp/"
+  },
+  "test": {
+    "enabled": false
+  },
+  "delay": {
+    "relief": 1000,
+    "animation": 2000,
+    "type": 100
+  },
+  "timeout": {
+    "selector": 60000
+  }
+}

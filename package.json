@@ -1,0 +1,27 @@
+{
+  "name": "bigbluebot",
+  "version": "1.0.0",
+  "description": "BigBlueButton bots",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrobmarin/bigbluebot.git"
+  },
+  "keywords": [
+    "bigbluebutton",
+    "html5",
+    "puppeteer"
+  ],
+  "dependencies": {
+    "puppeteer": "~1.10.0",
+    "generic-pool": "~3.4.2"
+  },
+  "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedrobmarin/bigbluebot/issues"
+  },
+  "homepage": "https://github.com/pedrobmarin/bigbluebot#readme"
+}
