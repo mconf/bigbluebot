@@ -1,11 +1,11 @@
 module.exports = {
-  open: 'a[href="/html5client/users/chat/public"]',
+  open: '[aria-label="Public Chat"]',
   close: '[aria-label="Hide Public Chat"]',
   options: {
     open: '[aria-label="Chat Options"]',
-    save: 'i._imports_ui_components_dropdown_list__styles__itemIcon.icon-bbb-save_notes',
-    copy: 'i._imports_ui_components_dropdown_list__styles__itemIcon.icon-bbb-copy',
-    clear: 'i._imports_ui_components_dropdown_list__styles__itemIcon.icon-bbb-delete'
+    save: 'i.itemIcon--Z207zn1.icon-bbb-save_notes',
+    copy: 'i.itemIcon--Z207zn1.icon-bbb-copy',
+    clear: 'i.itemIcon--Z207zn1.icon-bbb-delete'
   },
   form: {
     input: '#message-input',
