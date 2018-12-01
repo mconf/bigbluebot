@@ -1,5 +1,5 @@
 module.exports = {
-  board: 'svg._imports_ui_components_presentation__styles__svgStyles',
+  board: 'svg.svgStyles--ZGah2R',
   thickness: {
     open: '[aria-label="Drawing Thickness"]',
     sizes: [
