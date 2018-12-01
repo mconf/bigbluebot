@@ -53,3 +53,4 @@ let actions = async (page, id) => {
 
 run(actions)
 ```
+`npm start`
