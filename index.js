@@ -7,7 +7,7 @@
 const action = require('./lib/action.js')
 const run = require('./lib/run.js')
 
-let actions = async (page, id) => {
+let actions = async page => {
   // Include bot actions here
 }
 

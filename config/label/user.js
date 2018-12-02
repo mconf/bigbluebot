@@ -1,6 +1,4 @@
 module.exports = {
-  open: '[aria-label^="Users and Messages Toggle"]',
-  close: '[aria-label^="Users and Messages Toggle"]',
   manage: {
     open: '[aria-label="Manage Users"]',
     clear: 'i.itemIcon--Z207zn1.icon-bbb-clear_status',
@@ -22,7 +20,6 @@ module.exports = {
     down: 'i.itemIcon--Z207zn1.icon-bbb-thumbs_down',
     clear: 'i.itemIcon--Z207zn1.icon-bbb-clear_status'
   },
-  panel: '[aria-label="User List"]',
   name: {
     away: '[aria-label$="You  Status away"]',
     hand: '[aria-label$="You  Status raiseHand"]',
