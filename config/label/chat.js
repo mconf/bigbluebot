@@ -3,9 +3,9 @@ module.exports = {
   close: '[aria-label="Hide Public Chat"]',
   options: {
     open: '[aria-label="Chat Options"]',
-    save: 'i.itemIcon--Z207zn1.icon-bbb-save_notes',
+    clear: 'i.itemIcon--Z207zn1.icon-bbb-delete',
     copy: 'i.itemIcon--Z207zn1.icon-bbb-copy',
-    clear: 'i.itemIcon--Z207zn1.icon-bbb-delete'
+    save: 'i.itemIcon--Z207zn1.icon-bbb-save_notes'
   },
   form: {
     input: '#message-input',
