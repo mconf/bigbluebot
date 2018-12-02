@@ -40,5 +40,10 @@ module.exports = {
     pencil: '[aria-label="Pencil"]'
   },
   undo: '[aria-label="Undo Annotation"]',
-  clear: '[aria-label="Clear All Annotations"]'
+  clear: '[aria-label="Clear All Annotations"]',
+  multi: {
+    enable: '[aria-label="Turn multi-user mode on"]',
+    disable: '[aria-label="Turn multi-user mode off"]'
+  },
+  toolbar: 'div.toolbarContainer--ZqATLX'
 }

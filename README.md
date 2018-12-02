@@ -52,4 +52,17 @@ let actions = async page => {
 
 run(actions)
 ```
+
+```js
+const action = require('./lib/action.js')
+const run = require('./lib/run.js')
+
+let actions = async page => {
+  await action.chat.open(page)
+  await action.chat.send(page)
+}
+
+run(actions)
+```
+
 `npm start`
