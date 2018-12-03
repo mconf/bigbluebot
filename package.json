@@ -2,8 +2,9 @@
   "name": "bigbluebot",
   "version": "1.0.2",
   "description": "BigBlueButton bots",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node example.js"
   },
   "repository": {
     "type": "git",
