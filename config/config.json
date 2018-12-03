@@ -1,6 +1,6 @@
 {
   "url": {
-    "host": HOST,
+    "host": null,
     "demo": "/demo/demoHTML5.jsp?action=create",
     "userTag": "&username=",
     "user": [
@@ -22,6 +22,7 @@
   },
   "browser": {
     "headless": true,
+    "executablePath": null,
     "pool": {
       "population": 1,
       "size": {

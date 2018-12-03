@@ -4,6 +4,8 @@
  * @desc BigBlueBot API
  */
 
+require('dotenv').config()
+
 const audio = require('./lib/action/audio.js')
 const chat = require('./lib/action/chat.js')
 const note = require('./lib/action/note.js')

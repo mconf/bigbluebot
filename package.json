@@ -15,9 +15,13 @@
     "html5",
     "puppeteer"
   ],
+  "files": [
+    ".env.template"
+  ],
   "dependencies": {
     "puppeteer": "~1.10.0",
-    "generic-pool": "~3.4.2"
+    "generic-pool": "~3.4.2",
+    "dotenv": "~6.1.0"
   },
   "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
   "license": "MIT",
