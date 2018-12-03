@@ -23,7 +23,7 @@ const action = require('./lib/action.js')
 const run = require('./lib/run.js')
 
 let actions = async page => {
-  await action.audio.microphone(page)
+  await action.audio.dialog.microphone(page)
 }
 
 run(actions)
@@ -34,7 +34,7 @@ const action = require('./lib/action.js')
 const run = require('./lib/run.js')
 
 let actions = async page => {
-  await action.audio.listen(page)
+  await action.audio.dialog.listen(page)
 }
 
 run(actions)
