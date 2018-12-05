@@ -2,9 +2,7 @@
 
 BigBlueButton bots
 
-<p style="text-align: center;">
 ![](https://media.giphy.com/media/9SINi6Aq2oLydDLzFl/giphy.gif)
-</p>
 
 ## Requisites
 
