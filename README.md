@@ -2,7 +2,9 @@
 
 BigBlueButton bots
 
-*I bot, I die, I bot again!*
+<p style="text-align: center;">
+![](https://media.giphy.com/media/9SINi6Aq2oLydDLzFl/giphy.gif)
+</p>
 
 ## Requisites
 
@@ -12,7 +14,9 @@ A BigBlueButton server with `bbb-demo` installed
 
 `npm i bigbluebot`
 
-Set your BigBlueButton server URL as the `HOST` at `node_modules/bigbluebot/config/config.json`
+`cp node_modules/bigbluebot/.env.template .env`
+
+Set your BigBlueButton server URL at the `.env` file you just copied
 
 Create your script, e.g. `run.js`:
 
