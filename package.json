@@ -1,6 +1,6 @@
 {
   "name": "bigbluebot",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "BigBlueButton bots",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "html5",
     "puppeteer"
   ],
+  "directories": {
+    "lib": "./lib"
+  },
   "files": [
     ".env.template"
   ],
