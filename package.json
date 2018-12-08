@@ -1,6 +1,6 @@
 {
   "name": "bigbluebot",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "BigBlueButton bots",
   "main": "index.js",
   "scripts": {
@@ -10,13 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/pedrobmarin/bigbluebot.git"
   },
+  "directories": {
+    "lib": "./lib"
+  },
   "keywords": [
     "bigbluebutton",
     "html5",
     "puppeteer"
   ],
   "files": [
-    "./lib",
+    "./lib/*",
     ".env.template"
   ],
   "dependencies": {
