@@ -23,6 +23,7 @@
   "browser": {
     "headless": true,
     "executablePath": null,
+    "lang": "EN",
     "pool": {
       "population": 1,
       "size": {
