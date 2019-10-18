@@ -2,8 +2,6 @@
 
 BigBlueButton bots
 
-![](https://media.giphy.com/media/9SINi6Aq2oLydDLzFl/giphy.gif)
-
 ## Requisites
 
 A BigBlueButton server with `bbb-demo` installed

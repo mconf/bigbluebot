@@ -3,13 +3,6 @@
     "host": null,
     "demo": "/demo/demoHTML5.jsp?action=create",
     "userTag": "&username=",
-    "user": [
-      "Fofão",
-      "Capitão América",
-      "Popeye",
-      "Mickey",
-      "Palhaço"
-    ],
     "moderatorTag": "&isModerator=",
     "moderator": true,
     "meetingTag": "&meetingname=",
@@ -32,37 +25,23 @@
       }
     }
   },
-  "data": {
-    "chat": [
-      "Siga em frente...",
-      "... olhe para o lado",
-      "Se liga no mestiço...",
-      "... na batida do cavaco"
-    ],
-    "note": [
-      "Quero ver o som de Bob Marley sacudindo o partideiro...",
-      "O reggae da Jamaica no embolada...",
-      "Eu vou mostrar pro mundo inteiro...",
-      "Mundo inteiro!"
-    ],
+  "content": {
     "whiteboard": {
       "distance": 10,
-      "text": [
-        "Vamos passo a passo outra vez 1, 2, 3",
-        "Vou pôr no remelexo vocês 1, 2, 3",
-        "É fácil de aprender, é só se resolver",
-        "Se liga no mestiço que agora ele chegou de vez"
-      ],
       "pencil": {
         "points": 5
       }
     },
-    "audio": "/media/audio.wav",
-    "video": "/media/video.y4m"
+    "chat": {
+      "lines": 5
+    },
+    "note": {
+      "lines": 5
+    }
   },
   "screenshot": {
     "enabled": false,
-    "path": "/tmp/"
+    "path": "/tmp"
   },
   "test": {
     "enabled": false

@@ -19,9 +19,10 @@
     "puppeteer"
   ],
   "dependencies": {
-    "puppeteer": "~1.10.0",
+    "dotenv": "~6.1.0",
+    "faker": "^4.1.0",
     "generic-pool": "~3.4.2",
-    "dotenv": "~6.1.0"
+    "puppeteer": "~1.10.0"
   },
   "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
   "license": "MIT",
