@@ -16,6 +16,7 @@
   "browser": {
     "headless": true,
     "browserWSEndpoint": null,
+    "token": null,
     "executablePath": null,
     "lang": "EN",
     "pool": {
