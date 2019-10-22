@@ -11,7 +11,7 @@
   "bot": {
     "population": 1,
     "wait": 2000,
-    "lifespan": 60000
+    "life": 60000
   },
   "browser": {
     "headless": true,
