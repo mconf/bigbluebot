@@ -7,7 +7,7 @@
 const bigbluebot = require('./index.js')
 
 let actions = async page => {
-  await bigbluebot.audio.dialog.microphone(page)
+  await bigbluebot.video.join(page)
 }
 
 bigbluebot.run(actions)

@@ -19,6 +19,10 @@
     "token": null,
     "executablePath": null,
     "lang": "EN",
+    "window": {
+      "width": 1280,
+      "height": 720
+    },
     "pool": {
       "population": 1,
       "size": {
