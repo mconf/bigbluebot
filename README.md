@@ -46,8 +46,8 @@ Join video (VP8 only!)
 const bigbluebot = require('bigbluebot')
 
 let actions = async page => {
-  // Using puppeteer with Chromium (our default case here) you will need to
-  // configure bbb-webrtc-sfu to use VP8 instead of H.264
+  // H.264 users must use an external Chrome instance:
+  // export BIGBLUEBOT_BROWSER=/path/to/chrome
   await bigbluebot.video.join(page)
 }
 
