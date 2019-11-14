@@ -83,8 +83,7 @@ Join video
 const bigbluebot = require('bigbluebot')
 
 let actions = async page => {
-  // H.264 users must use an external Chrome instance:
-  // export BIGBLUEBOT_BROWSER=/path/to/chrome
+  // H.264 users must use an external Chrome instance
   await bigbluebot.video.join(page)
 }
 
