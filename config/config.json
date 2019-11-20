@@ -1,12 +1,18 @@
 {
   "url": {
     "host": null,
-    "demo": "/demo/demoHTML5.jsp?action=create",
-    "userTag": "&username=",
-    "moderatorTag": "&isModerator=",
-    "moderator": true,
-    "meetingTag": "&meetingname=",
-    "meeting": "Demo Meeting"
+    "demo": "demo/demoHTML5.jsp?action=create",
+    "user": {
+      "param": "username"
+    },
+    "moderator": {
+      "param": "isModerator",
+      "value": true
+    },
+    "meeting": {
+      "param": "meetingname",
+      "name": "Demo Meeting"
+    }
   },
   "bot": {
     "population": 1,
@@ -15,10 +21,11 @@
   },
   "browser": {
     "headless": true,
-    "browserWSEndpoint": null,
+    "endpoint": null,
     "token": null,
-    "executablePath": null,
+    "path": null,
     "lang": "EN",
+    "autoplay": "no-user-gesture-required",
     "window": {
       "width": 1280,
       "height": 720
