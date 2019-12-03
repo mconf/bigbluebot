@@ -1,8 +1,8 @@
 module.exports = {
   panel: {
-    name: '[aria-label="User List"]',
-    open: '[aria-label^="Users and Messages Toggle"]',
-    close: '[aria-label^="Users and Messages Toggle"]'
+    name: '[aria-label="User list"]',
+    open: '[aria-label^="Users and messages toggle"]',
+    close: '[aria-label^="Users and messages toggle"]'
   },
   actions: {
     name: '[aria-label="Actions"]',

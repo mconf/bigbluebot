@@ -8,8 +8,8 @@ module.exports = {
     save: 'i.itemIcon--Z207zn1.icon-bbb-save_notes'
   },
   form: {
-    input: '#message-input',
-    send: '[aria-label="Send Message"]'
+    input: '[aria-label="Message input for chat Public Chat"]',
+    send: '[aria-label="Send message"]'
   },
   panel: '[aria-label="Chat"]'
 }

@@ -59,7 +59,7 @@ Join audio with microphone
 const bigbluebot = require('bigbluebot')
 
 let actions = async page => {
-  await bigbluebot.audio.dialog.microphone(page)
+  await bigbluebot.audio.modal.microphone(page)
 }
 
 bigbluebot.run(actions)
@@ -71,7 +71,7 @@ Join audio as a listener
 const bigbluebot = require('bigbluebot')
 
 let actions = async page => {
-  await bigbluebot.audio.dialog.listen(page)
+  await bigbluebot.audio.modal.listen(page)
 }
 
 bigbluebot.run(actions)
@@ -96,7 +96,6 @@ Write in chat
 const bigbluebot = require('bigbluebot')
 
 let actions = async page => {
-  await bigbluebot.chat.open(page)
   await bigbluebot.chat.send(page)
 }
 
