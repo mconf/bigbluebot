@@ -1,16 +1,16 @@
 module.exports = {
   panel: {
-    name: '[aria-label="User list"]',
-    open: '[aria-label^="Users and messages toggle"]',
-    close: '[aria-label^="Users and messages toggle"]'
+    name: 'app.userList.label',
+    open: 'app.navBar.toggleUserList.ariaLabel',
+    close: 'app.navBar.toggleUserList.ariaLabel'
   },
   actions: {
-    name: '[aria-label="Actions"]',
+    name: 'app.actionsBar.actionsDropdown.actionsLabel',
     poll: 'i.itemIcon--Z207zn1.icon-bbb-user',
     upload: 'i.itemIcon--Z207zn1.icon-bbb-presentation',
     breakout: 'i.itemIcon--Z207zn1.icon-bbb-rooms'
   },
   options: {
-    button: '[aria-label="Options"]'
+    button: 'app.navBar.settingsDropdown.optionsLabel'
   }
 }

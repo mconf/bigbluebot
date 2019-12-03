@@ -1,15 +1,15 @@
 module.exports = {
-  join: '[aria-label="Join Audio"]',
+  join: 'app.audio.joinAudio',
   modal: {
-    microphone: '[aria-label="Microphone"]',
-    listen: '[aria-label="Listen only"]',
-    close: '[aria-label="Close Join audio modal"]',
-    name: '[aria-label="Join audio modal"]'
+    microphone: 'app.audioModal.microphoneLabel',
+    listen: 'app.audioModal.listenOnlyLabel',
+    close: 'app.audioModal.closeLabel',
+    name: 'app.audioModal.ariaTitle'
   },
   echo: {
-    confirm: '[aria-label="Echo is audible"]'
+    confirm: 'app.audioModal.yes.arialabel'
   },
-  mute: '[aria-label="Mute"]',
-  unmute: '[aria-label="Unmute"]',
-  leave: '[aria-label="Leave Audio"]'
+  mute: 'app.actionsBar.muteLabel',
+  unmute: 'app.actionsBar.unmuteLabel',
+  leave: 'app.audio.leaveAudio'
 }

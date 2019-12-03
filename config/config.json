@@ -1,6 +1,7 @@
 {
   "url": {
     "host": null,
+    "locale": "html5client/locale?locale",
     "demo": "demo/demoHTML5.jsp?action=create",
     "user": {
       "param": "username"

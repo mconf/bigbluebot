@@ -1,15 +1,15 @@
 module.exports = {
-  open: '[aria-label="Public Chat"]',
-  close: '[aria-label="Hide Public Chat"]',
+  open: 'app.chat.titlePublic',
+  close: 'app.chat.hideChatLabel',
   options: {
-    open: '[aria-label="Chat Options"]',
-    clear: 'i.itemIcon--Z207zn1.icon-bbb-delete',
-    copy: 'i.itemIcon--Z207zn1.icon-bbb-copy',
-    save: 'i.itemIcon--Z207zn1.icon-bbb-save_notes'
+    open: 'app.chat.dropdown.options',
+    clear: 'app.chat.dropdown.clear',
+    copy: 'app.chat.dropdown.copy',
+    save: 'app.chat.dropdown.save'
   },
   form: {
-    input: '[aria-label="Message input for chat Public Chat"]',
-    send: '[aria-label="Send message"]'
+    input: 'app.chat.inputLabel',
+    send: 'app.chat.submitLabel'
   },
-  panel: '[aria-label="Chat"]'
+  panel: 'app.chat.label'
 }

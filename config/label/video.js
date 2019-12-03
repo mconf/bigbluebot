@@ -1,7 +1,7 @@
 module.exports = {
-  share: '[aria-label="Share webcam"]',
-  unshare: '[aria-label="Share webcam"]',
+  share: 'app.video.joinVideo',
+  unshare: 'app.video.leaveVideo',
   settings: {
-    start: '[aria-label="Start sharing"]'
+    start: 'app.videoPreview.startSharingLabel'
   }
 }
