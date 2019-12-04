@@ -6,9 +6,8 @@ module.exports = {
   },
   actions: {
     name: 'app.actionsBar.actionsDropdown.actionsLabel',
-    poll: 'i.itemIcon--Z207zn1.icon-bbb-user',
-    upload: 'i.itemIcon--Z207zn1.icon-bbb-presentation',
-    breakout: 'i.itemIcon--Z207zn1.icon-bbb-rooms'
+    poll: 'MAIN ACTIONS POOL ARIA LABEL',
+    upload: 'MAIN ACTIONS UPLOAD ARIA LABEL'
   },
   options: {
     button: 'app.navBar.settingsDropdown.optionsLabel'

@@ -1,8 +1,8 @@
 module.exports = {
-  open: 'a[href="/html5client/users/notes"]',
-  close: '[aria-label="Hide Shared Notes"]',
+  open: 'NOTE OPEN ARIA LABEL',
+  close: 'app.note.hideNoteLabel',
   frame: {
-    name: 'ace_inner',
-    pad: 'html[dir="ltr"]'
+    name: 'NOTE FRAME NAME ARIA LABEL',
+    pad: 'NOTE FRAME PAD ARIA LABEL'
   }
 }

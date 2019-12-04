@@ -1,49 +1,49 @@
 module.exports = {
-  board: 'svg.svgStyles--ZGah2R',
+  board: 'WHITEBOARD BOARD ARIA LABEL',
   thickness: {
-    open: '[aria-label="Drawing Thickness"]',
+    open: 'app.whiteboard.toolbar.thickness',
     sizes: [
-      '[aria-label="1"]',
-      '[aria-label="2"]',
-      '[aria-label="4"]',
-      '[aria-label="6"]',
-      '[aria-label="8"]',
-      '[aria-label="10"]',
-      '[aria-label="12"]',
-      '[aria-label="14"]'
+      'WHITEBOARD THICKNESS SIZE 1 ARIA LABEL',
+      'WHITEBOARD THICKNESS SIZE 2 ARIA LABEL',
+      'WHITEBOARD THICKNESS SIZE 4 ARIA LABEL',
+      'WHITEBOARD THICKNESS SIZE 6 ARIA LABEL',
+      'WHITEBOARD THICKNESS SIZE 8 ARIA LABEL',
+      'WHITEBOARD THICKNESS SIZE 10 ARIA LABEL',
+      'WHITEBOARD THICKNESS SIZE 12 ARIA LABEL',
+      'WHITEBOARD THICKNESS SIZE 14 ARIA LABEL'
     ]
   },
   colors: {
-    open: '[aria-label="Colors"]',
+    open: 'app.whiteboard.toolbar.color',
     palette: [
-      '[aria-label="Black"]',
-      '[aria-label="White"]',
-      '[aria-label="Red"]',
-      '[aria-label="Orange"]',
-      '[aria-label="Electric Lime"]',
-      '[aria-label="Lime"]',
-      '[aria-label="Cyan"]',
-      '[aria-label="Dodger Blue"]',
-      '[aria-label="Blue"]',
-      '[aria-label="Violet"]',
-      '[aria-label="Magenta"]',
-      '[aria-label="Silver"]'
+      'app.whiteboard.toolbar.color.black',
+      'app.whiteboard.toolbar.color.white',
+      'app.whiteboard.toolbar.color.red',
+      'app.whiteboard.toolbar.color.orange',
+      'app.whiteboard.toolbar.color.eletricLime',
+      'app.whiteboard.toolbar.color.lime',
+      'app.whiteboard.toolbar.color.cyan',
+      'app.whiteboard.toolbar.color.dodgerBlue',
+      'app.whiteboard.toolbar.color.blue',
+      'app.whiteboard.toolbar.color.violet',
+      'app.whiteboard.toolbar.color.magenta',
+      'app.whiteboard.toolbar.color.silver'
     ]
   },
   tools: {
-    open: '[aria-label="Tools"]',
-    text: '[aria-label="Text"]',
-    line: '[aria-label="Line"]',
-    ellipse: '[aria-label="Ellipse"]',
-    triangle: '[aria-label="Triangle"]',
-    rectangle: '[aria-label="Rectangle"]',
-    pencil: '[aria-label="Pencil"]'
+    open: 'app.whiteboard.toolbar.tools',
+    text: 'app.whiteboard.toolbar.tools.text',
+    line: 'app.whiteboard.toolbar.tools.line',
+    ellipse: 'app.whiteboard.toolbar.tools.ellipse',
+    triangle: 'app.whiteboard.toolbar.tools.triangle',
+    rectangle: 'app.whiteboard.toolbar.tools.rectangle',
+    pencil: 'app.whiteboard.toolbar.tools.pencil'
   },
-  undo: '[aria-label="Undo Annotation"]',
-  clear: '[aria-label="Clear All Annotations"]',
+  undo: 'app.whiteboard.toolbar.undo',
+  clear: 'app.whiteboard.toolbar.clear',
   multi: {
-    enable: '[aria-label="Turn multi-user mode on"]',
-    disable: '[aria-label="Turn multi-user mode off"]'
+    enable: 'app.whiteboard.toolbar.multiUserOn',
+    disable: 'app.whiteboard.toolbar.multiUserOff'
   },
-  toolbar: 'div.toolbarContainer--ZqATLX'
+  toolbar: 'WHITEBOARD TOOLBAR ARIA LABEL'
 }

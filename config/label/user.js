@@ -1,37 +1,37 @@
 module.exports = {
   manage: {
-    open: '[aria-label="Manage Users"]',
-    clear: 'i.itemIcon--Z207zn1.icon-bbb-clear_status',
-    lock: 'i.itemIcon--Z207zn1.icon-bbb-lock'
+    open: 'app.userList.userOptions.manageUsersLabel',
+    clear: 'USER MANAGE CLEAR ARIA LABEL',
+    lock: 'USER MANAGE LOCK ARIA LABEL'
   },
-  present: 'i.itemIcon--Z207zn1.icon-bbb-presentation',
-  promote: 'i.itemIcon--Z207zn1.icon-bbb-promote',
-  demote: 'i.itemIcon--Z207zn1.icon-bbb-user',
+  present: 'USER PRESENT ARIA LABEL',
+  promote: 'USER PROMOTE ARIA LABEL',
+  demote: 'USER DEMOTE ARIA LABEL',
   status: {
-    open: 'i.itemIcon--Z207zn1.icon-bbb-user',
-    away: 'i.itemIcon--Z207zn1.icon-bbb-time',
-    hand: 'i.itemIcon--Z207zn1.icon-bbb-hand',
-    undecided: 'i.itemIcon--Z207zn1.icon-bbb-undecided',
-    confused: 'i.itemIcon--Z207zn1.icon-bbb-confused',
-    sad: 'i.itemIcon--Z207zn1.icon-bbb-sad',
-    happy: 'i.itemIcon--Z207zn1.icon-bbb-happy',
-    applaud: 'i.itemIcon--Z207zn1.icon-bbb-applause',
-    up: 'i.itemIcon--Z207zn1.icon-bbb-thumbs_up',
-    down: 'i.itemIcon--Z207zn1.icon-bbb-thumbs_down',
-    clear: 'i.itemIcon--Z207zn1.icon-bbb-clear_status'
+    open: 'USER STATUS OPEN ARIA LABEL',
+    away: 'USER STATUS AWAY ARIA LABEL',
+    hand: 'USER STATUS HAND ARIA LABEL',
+    undecided: 'USER STATUS UNDECIDED ARIA LABEL',
+    confused: 'USER STATUS CONFUSED ARIA LABEL',
+    sad: 'USER STATUS SAD ARIA LABEL',
+    happy: 'USER STATUS HAPPY ARIA LABEL',
+    applaud: 'USER STATUS APPLAUD ARIA LABEL',
+    up: 'USER STATUS UP ARIA LABEL',
+    down: 'USER STATUS DOWN ARIA LABEL',
+    clear: 'USER STATUS CLEAR ARIA LABEL'
   },
   name: {
-    away: '[aria-label$="You  Status away"]',
-    hand: '[aria-label$="You  Status raiseHand"]',
-    undecided: '[aria-label$="You  Status neutral"]',
-    confused: '[aria-label$="You  Status confused"]',
-    sad: '[aria-label$="You  Status sad"]',
-    happy: '[aria-label$="You  Status happy"]',
-    applaud: '[aria-label$="You  Status applause"]',
-    up: '[aria-label$="You  Status thumbsUp"]',
-    down: '[aria-label$="You  Status thumbsDown"]',
-    clear: '[aria-label$="You  Status none"]',
-    me: '[aria-label~="You"]',
-    presenter: '[aria-label*="Presenter You"]'
+    away: 'USER NAME AWAY ARIA LABEL',
+    hand: 'USER NAME HAND ARIA LABEL',
+    undecided: 'USER NAME UNDECIDED ARIA LABEL',
+    confused: 'USER NAME CONFUSED ARIA LABEL',
+    sad: 'USER NAME SAD ARIA LABEL',
+    happy: 'USER NAME HAPPY ARIA LABEL',
+    applaud: 'USER NAME APPLAUD ARIA LABEL',
+    up: 'USER NAME UP ARIA LABEL',
+    down: 'USER NAME DOWN ARIA LABEL',
+    clear: 'USER NAME CLEAR ARIA LABEL',
+    me: 'USER NAME ME ARIA LABEL',
+    presenter: 'USER NAME PRESENTER ARIA LABEL'
   }
 }

@@ -1,11 +1,11 @@
 module.exports = {
   slide: {
-    next: '[aria-label="Next slide"]',
-    previous: '[aria-label="Previous slide"]'
+    next: 'app.presentation.presentationToolbar.nextSlideLabel',
+    previous: 'app.presentation.presentationToolbar.prevSlideLabel'
   },
   zoom: {
-    in: '[aria-label="+"]',
-    out: '[aria-label="-"]'
+    in: 'PRESENTATION ZOOM IN ARIA LABEL',
+    out: 'PRESENTATION ZOOM OUT ARIA LABEL'
   },
-  fit: '[aria-label="Fit to Width"]'
+  fit: 'app.presentation.presentationToolbar.fitWidthLabel'
 }
