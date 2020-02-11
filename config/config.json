@@ -15,6 +15,14 @@
       "name": "Demo Meeting"
     }
   },
+  "api": {
+    "secret": null,
+    "path": "bigbluebutton/api",
+    "password": {
+      "moderator": "mp",
+      "attendee": "ap"
+    }
+  },
   "bot": {
     "population": 1,
     "wait": 2000,

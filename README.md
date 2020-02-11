@@ -4,7 +4,7 @@ BigBlueButton bots
 
 ## Requisites
 
-A BigBlueButton server with `bbb-demo` installed
+A BigBlueButton server with `bbb-demo` installed or setting the server API secret
 
 ## Instructions
 
@@ -21,6 +21,10 @@ BIGBLUEBOT_HOST=https://your.bigbluebutton.server
  - [optional] room name
 ```
 BIGBLUEBOT_ROOM=Demo Meeting
+```
+ - [optional] your BigBlueButton server API secret
+```
+BIGBLUEBOT_SECRET=moOBbUYPva5olDhDj8Lp6+V7URBZKCRn
 ```
  - [optional] number of bots to join the room
 ```
