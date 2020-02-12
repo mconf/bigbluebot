@@ -24,7 +24,7 @@ BIGBLUEBOT_ROOM=Demo Meeting
 ```
  - [optional] your BigBlueButton server API secret
 ```
-BIGBLUEBOT_SECRET=moOBbUYPva5olDhDj8Lp6+V7URBZKCRn
+BIGBLUEBOT_SECRET=yourbigbluebuttonsecret
 ```
  - [optional] number of bots to join the room
 ```
