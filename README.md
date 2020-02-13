@@ -54,6 +54,10 @@ BIGBLUEBOT_ENDPOINT=wss://your.browser.websocket
 ```
 BIGBLUEBOT_TOKEN=yourauthenticationtoken
 ```
+ - [optional] log level
+```
+BIGBLUEBOT_LOG=info
+```
 
 Create your script, e.g. `run.js`:
 

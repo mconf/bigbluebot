@@ -64,9 +64,6 @@
     "enabled": false,
     "path": "/tmp"
   },
-  "test": {
-    "enabled": false
-  },
   "delay": {
     "relief": 1000,
     "animation": 2000,
@@ -76,7 +73,6 @@
     "selector": 60000
   },
   "logger": {
-    "enabled": true,
     "level": "info"
   }
 }
