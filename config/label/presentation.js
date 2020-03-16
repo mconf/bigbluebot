@@ -7,5 +7,7 @@ module.exports = {
     in: 'PRESENTATION ZOOM IN ARIA LABEL',
     out: 'PRESENTATION ZOOM OUT ARIA LABEL'
   },
-  fit: 'app.presentation.presentationToolbar.fitWidthLabel'
+  fit: 'app.presentation.presentationToolbar.fitWidthLabel',
+  hide: 'app.presentation.hide',
+  restore: 'app.actionsBar.actionsDropdown.restorePresentationLabel'
 }
