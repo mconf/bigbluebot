@@ -65,6 +65,7 @@
     "path": "/tmp"
   },
   "delay": {
+    "connection": 15000,
     "relief": 1000,
     "animation": 2000,
     "type": 100
