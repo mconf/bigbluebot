@@ -2,7 +2,7 @@ module.exports = {
   manage: {
     open: 'app.userList.userOptions.manageUsersLabel',
     clear: 'USER MANAGE CLEAR ARIA LABEL',
-    lock: 'USER MANAGE LOCK ARIA LABEL'
+    lock: 'USER MANAGE LOCK ARIA LABEL',
   },
   present: 'USER PRESENT ARIA LABEL',
   promote: 'USER PROMOTE ARIA LABEL',
@@ -18,7 +18,7 @@ module.exports = {
     applaud: 'USER STATUS APPLAUD ARIA LABEL',
     up: 'USER STATUS UP ARIA LABEL',
     down: 'USER STATUS DOWN ARIA LABEL',
-    clear: 'USER STATUS CLEAR ARIA LABEL'
+    clear: 'USER STATUS CLEAR ARIA LABEL',
   },
   name: {
     away: 'USER NAME AWAY ARIA LABEL',
@@ -32,6 +32,6 @@ module.exports = {
     down: 'USER NAME DOWN ARIA LABEL',
     clear: 'USER NAME CLEAR ARIA LABEL',
     me: 'USER NAME ME ARIA LABEL',
-    presenter: 'USER NAME PRESENTER ARIA LABEL'
-  }
-}
+    presenter: 'USER NAME PRESENTER ARIA LABEL',
+  },
+};

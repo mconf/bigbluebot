@@ -4,12 +4,12 @@ module.exports = {
     microphone: 'app.audioModal.microphoneLabel',
     listen: 'app.audioModal.listenOnlyLabel',
     close: 'app.audioModal.closeLabel',
-    name: 'app.audioModal.ariaTitle'
+    name: 'app.audioModal.ariaTitle',
   },
   echo: {
-    confirm: 'app.audioModal.yes.arialabel'
+    confirm: 'app.audioModal.yes.arialabel',
   },
   mute: 'app.actionsBar.muteLabel',
   unmute: 'app.actionsBar.unmuteLabel',
-  leave: 'app.audio.leaveAudio'
-}
+  leave: 'app.audio.leaveAudio',
+};

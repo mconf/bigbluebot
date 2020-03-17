@@ -10,8 +10,8 @@ module.exports = {
       'WHITEBOARD THICKNESS SIZE 8 ARIA LABEL',
       'WHITEBOARD THICKNESS SIZE 10 ARIA LABEL',
       'WHITEBOARD THICKNESS SIZE 12 ARIA LABEL',
-      'WHITEBOARD THICKNESS SIZE 14 ARIA LABEL'
-    ]
+      'WHITEBOARD THICKNESS SIZE 14 ARIA LABEL',
+    ],
   },
   colors: {
     open: 'app.whiteboard.toolbar.color',
@@ -27,8 +27,8 @@ module.exports = {
       'app.whiteboard.toolbar.color.blue',
       'app.whiteboard.toolbar.color.violet',
       'app.whiteboard.toolbar.color.magenta',
-      'app.whiteboard.toolbar.color.silver'
-    ]
+      'app.whiteboard.toolbar.color.silver',
+    ],
   },
   tools: {
     open: 'app.whiteboard.toolbar.tools',
@@ -37,13 +37,13 @@ module.exports = {
     ellipse: 'app.whiteboard.toolbar.tools.ellipse',
     triangle: 'app.whiteboard.toolbar.tools.triangle',
     rectangle: 'app.whiteboard.toolbar.tools.rectangle',
-    pencil: 'app.whiteboard.toolbar.tools.pencil'
+    pencil: 'app.whiteboard.toolbar.tools.pencil',
   },
   undo: 'app.whiteboard.toolbar.undo',
   clear: 'app.whiteboard.toolbar.clear',
   multi: {
     enable: 'app.whiteboard.toolbar.multiUserOn',
-    disable: 'app.whiteboard.toolbar.multiUserOff'
+    disable: 'app.whiteboard.toolbar.multiUserOff',
   },
-  toolbar: 'WHITEBOARD TOOLBAR ARIA LABEL'
-}
+  toolbar: 'WHITEBOARD TOOLBAR ARIA LABEL',
+};

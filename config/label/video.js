@@ -3,6 +3,6 @@ module.exports = {
   unshare: 'app.video.leaveVideo',
   fullscreen: 'app.fullscreenButton.label',
   settings: {
-    start: 'app.videoPreview.startSharingLabel'
-  }
-}
+    start: 'app.videoPreview.startSharingLabel',
+  },
+};

@@ -5,11 +5,11 @@ module.exports = {
     open: 'app.chat.dropdown.options',
     clear: 'app.chat.dropdown.clear',
     copy: 'app.chat.dropdown.copy',
-    save: 'app.chat.dropdown.save'
+    save: 'app.chat.dropdown.save',
   },
   form: {
     input: 'app.chat.inputLabel',
-    send: 'app.chat.submitLabel'
+    send: 'app.chat.submitLabel',
   },
-  panel: 'app.chat.label'
-}
+  panel: 'app.chat.label',
+};
