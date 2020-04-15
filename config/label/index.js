@@ -1,9 +1,3 @@
-/**
- * @name Label
- *
- * @desc Set of interface labels
- */
-
 const audio = require('./audio');
 const chat = require('./chat');
 const main = require('./main');
