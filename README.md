@@ -2,7 +2,7 @@
 
 BigBlueButton bots
 
-## Requisites
+## Requirements
 
 A BigBlueButton server with `bbb-demo` installed or setting the server API secret
 
