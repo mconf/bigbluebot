@@ -7,6 +7,7 @@ BigBlueButton bots
 A BigBlueButton server with `bbb-demo` installed or setting the server API secret
 
 ## Instructions
+**IMPORTANT**: do not run this lib with `root` privileges
 
 `npm i bigbluebot`
 
