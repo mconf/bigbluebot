@@ -72,17 +72,17 @@ call the `getMeetings` route of your BBB instance as described
 
  - [optional] the `meetingID` of the existing room as shown in getMeetings
 ```
-BIGBLUEBOT_ROOM_ID=info
+BIGBLUEBOT_ROOM_ID=0123456789abcdef0123456789abcdef01234567
 ```
 
  - [optional] the `attendeePW` as shown in getMeetings
 ```
-BIGBLUEBOT_ATTENDEE_PW=info
+BIGBLUEBOT_ATTENDEE_PW=qwertyuiopas
 ```
 
  - [optional] the `moderatorPW` as shown in getMeetings
 ```
-BIGBLUEBOT_MODERATOR_PW=info
+BIGBLUEBOT_MODERATOR_PW=abcdefghijkl
 ```
 
 ### Make a run script
