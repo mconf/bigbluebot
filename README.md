@@ -7,11 +7,14 @@ BigBlueButton bots
 A BigBlueButton server with `bbb-demo` installed or setting the server API secret
 
 ## Instructions
+
 **IMPORTANT**: do not run this lib with `root` privileges
 
 `npm i bigbluebot`
 
 `cp node_modules/bigbluebot/.env.template .env`
+
+### Set your environment variables
 
 At the `.env` file you just copied, set:
 
@@ -19,7 +22,7 @@ At the `.env` file you just copied, set:
 ```
 BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 ```
- - [optional] room name
+ - [optional] room name - for a room that is to be created
 ```
 BIGBLUEBOT_ROOM=Demo Meeting
 ```
@@ -59,6 +62,30 @@ BIGBLUEBOT_TOKEN=yourauthenticationtoken
 ```
 BIGBLUEBOT_LOG=info
 ```
+
+### Let bots join an existing room
+
+If you would like the bots to join an existing room, you may fill
+out the following variables. To find out these variables, you may
+call the `getMeetings` route of your BBB instance as described
+[here](https://docs.bigbluebutton.org/dev/api.html#getmeetings).
+
+ - [optional] the `meetingID` of the existing room as shown in getMeetings
+```
+BIGBLUEBOT_ROOM_ID=info
+```
+
+ - [optional] the `attendeePW` as shown in getMeetings
+```
+BIGBLUEBOT_ATTENDEE_PW=info
+```
+
+ - [optional] the `moderatorPW` as shown in getMeetings
+```
+BIGBLUEBOT_MODERATOR_PW=info
+```
+
+### Make a run script
 
 Create your script, e.g. `run.js`:
 
@@ -110,5 +137,7 @@ let actions = async page => {
 
 bigbluebot.run(actions)
 ```
+
+### Run your script
 
 `node run.js`
