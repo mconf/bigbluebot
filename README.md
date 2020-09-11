@@ -22,9 +22,18 @@ At the `.env` file you just copied, set:
 ```
 BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 ```
- - [optional] room name - for a room that is to be created
+ - [optional] room name (set to `meetingID` if bots should join an existing room)
 ```
 BIGBLUEBOT_ROOM=Demo Meeting
+```
+If you would like the bots to join an existing room, you may fill
+out the password variables. To find out these passwords, you may
+call the `getMeetings` route of your BBB instance as described
+[here](https://docs.bigbluebutton.org/dev/api.html#getmeetings).
+ - [optional] the `attendeePW` and `moderatorPW` as shown in getMeetings
+```
+BIGBLUEBOT_ATTENDEE_PW=qwertyuiopas
+BIGBLUEBOT_MODERATOR_PW=abcdefghijkl
 ```
  - [optional] your BigBlueButton server API secret
 ```
@@ -61,28 +70,6 @@ BIGBLUEBOT_TOKEN=yourauthenticationtoken
  - [optional] log level
 ```
 BIGBLUEBOT_LOG=info
-```
-
-### Let bots join an existing room
-
-If you would like the bots to join an existing room, you may fill
-out the following variables. To find out these variables, you may
-call the `getMeetings` route of your BBB instance as described
-[here](https://docs.bigbluebutton.org/dev/api.html#getmeetings).
-
- - [optional] the `meetingID` of the existing room as shown in getMeetings
-```
-BIGBLUEBOT_ROOM_ID=0123456789abcdef0123456789abcdef01234567
-```
-
- - [optional] the `attendeePW` as shown in getMeetings
-```
-BIGBLUEBOT_ATTENDEE_PW=qwertyuiopas
-```
-
- - [optional] the `moderatorPW` as shown in getMeetings
-```
-BIGBLUEBOT_MODERATOR_PW=abcdefghijkl
 ```
 
 ### Make a run script
