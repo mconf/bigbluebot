@@ -27,9 +27,9 @@ BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 BIGBLUEBOT_ROOM=Demo Meeting
 ```
 If you would like the bots to join an existing room, you may fill
-out the password variables. To find out these passwords, you may
-call the `getMeetings` route of your BBB instance as described
-[here](https://docs.bigbluebutton.org/dev/api.html#getmeetings).
+out the password variables and use the `meetingID` value as `BIGBLUEBUTTON_ROOM`
+To find out these data, you may call the `getMeetings` route of your BBB
+instance as described [here](https://docs.bigbluebutton.org/dev/api.html#getmeetings).
  - [optional] the `attendeePW` and `moderatorPW` as shown in getMeetings
 ```
 BIGBLUEBOT_ATTENDEE_PW=qwertyuiopas

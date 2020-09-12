@@ -12,8 +12,7 @@
     },
     "meeting": {
       "param": "meetingname",
-      "name": "Demo Meeting",
-      "exist": false
+      "name": "Demo Meeting"
     }
   },
   "api": {
