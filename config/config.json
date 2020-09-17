@@ -75,5 +75,10 @@
   },
   "logger": {
     "level": "info"
+  },
+  "misc": {
+    "room": {
+      "close": true
+    }
   }
 }
