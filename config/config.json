@@ -77,8 +77,8 @@
     "level": "info"
   },
   "misc": {
-    "room": {
-      "close": false
+    "meeting": {
+      "end": false
     }
   }
 }
