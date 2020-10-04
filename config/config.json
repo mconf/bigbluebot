@@ -78,7 +78,7 @@
   },
   "misc": {
     "room": {
-      "close": true
+      "close": false
     }
   }
 }
