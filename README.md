@@ -24,7 +24,7 @@ BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 ```
  - [optional] room name or meetingID
 ```
-BIGBLUEBOT_ROOM=Demo Meeting
+BIGBLUEBOT_ROOM=yourbigbluebuttonroomidentifier
 ```
 If you would like the bots to join an existing room, you may fill
 out the password variables and use the `meetingID` value as `BIGBLUEBOT_ROOM`
@@ -81,9 +81,9 @@ Join audio with microphone
 ```js
 const bigbluebot = require('bigbluebot');
 
-let actions = async page => {
+const actions = async page => {
   await bigbluebot.audio.modal.microphone(page);
-}
+};
 
 bigbluebot.run(actions);
 ```
@@ -93,9 +93,9 @@ Join audio as a listener
 ```js
 const bigbluebot = require('bigbluebot');
 
-let actions = async page => {
+const actions = async page => {
   await bigbluebot.audio.modal.listen(page);
-}
+};
 
 bigbluebot.run(actions);
 ```
@@ -105,9 +105,9 @@ Join video
 ```js
 const bigbluebot = require('bigbluebot');
 
-let actions = async page => {
+const actions = async page => {
   await bigbluebot.video.join(page);
-}
+};
 
 bigbluebot.run(actions);
 ```
@@ -117,11 +117,38 @@ Write in chat
 ```js
 const bigbluebot = require('bigbluebot');
 
-let actions = async page => {
+const actions = async page => {
   await bigbluebot.chat.send(page);
-}
+};
 
 bigbluebot.run(actions);
+```
+
+#### Runtime options
+
+You can pass options as a run parameter
+
+```js
+const bigbluebot = require('bigbluebot');
+
+const actions = async page => {
+  await bigbluebot.audio.modal.microphone(page);
+  await bigbluebot.video.join(page);
+  await bigbluebot.chat.send(page);
+};
+
+const options = {
+  host: 'https://your.bigbluebutton.server',
+  secret: 'yourbigbluebuttonsecret',
+  room: 'yourbigbluebuttonroomidentifier',
+  password: {
+    moderator: 'yourmoderatorpassword',
+    attendee: 'yourattendeepassword',
+  },
+  moderator: true OR false,
+};
+
+bigbluebot.run(actions, options);
 ```
 
 ### Run your script
