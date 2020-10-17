@@ -1,15 +1,9 @@
-/**
- * @name Example
- *
- * @desc Dispatch an HTML5 bot script
- */
+const bigbluebot = require('./index.js');
 
-const bigbluebot = require('./index.js')
+const actions = async page => {
+  await bigbluebot.audio.modal.microphone(page);
+  await bigbluebot.video.join(page);
+  await bigbluebot.chat.send(page);
+};
 
-let actions = async page => {
-  await bigbluebot.audio.modal.microphone(page)
-  await bigbluebot.video.join(page)
-  await bigbluebot.chat.send(page)
-}
-
-bigbluebot.run(actions)
+bigbluebot.run(actions);
