@@ -1,30 +1,30 @@
-/**
- * @name Index
- *
- * @desc BigBlueBot API
- */
+require('dotenv').config();
 
-require('dotenv').config()
+const action = require('./lib/action');
 
-const audio = require('./lib/action/audio.js')
-const chat = require('./lib/action/chat.js')
-const note = require('./lib/action/note.js')
-const presentation = require('./lib/action/presentation.js')
-const user = require('./lib/action/user.js')
-const video = require('./lib/action/video.js')
-const whiteboard = require('./lib/action/whiteboard.js')
+const {
+  audio,
+  chat,
+  note,
+  presentation,
+  screenshare,
+  user,
+  video,
+  whiteboard,
+} = action;
 
-const logger = require('./lib/logger.js')
-const run = require('./lib/run.js')
+const logger = require('./lib/logger');
+const run = require('./lib/run');
 
 module.exports = {
-  audio: audio,
-  chat: chat,
-  note: note,
-  presentation: presentation,
-  user: user,
-  video: video,
-  whiteboard: whiteboard,
-  logger: logger,
-  run: run
-}
+  audio,
+  chat,
+  note,
+  presentation,
+  screenshare,
+  user,
+  video,
+  whiteboard,
+  logger,
+  run,
+};
