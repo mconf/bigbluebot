@@ -40,7 +40,7 @@ BIGBLUEBOT_NAME=yourbigbluebuttonroomname
 If you want to join a preexisting room, then use this option. YOU HAVE TO PROVIDE the serverAPI secret
 to work with this. When you give the (hopefully) unique room name and the server secret then all
 other credentials are extracted from the `getMeetings` route of the BBB instance.
-Here you can join any room only by knowing his meetingName.
+Here you can join any room only by knowing the `meetingName` like in getMeetings answer.
  - [optional] the `attendeePW` and `moderatorPW` as shown in getMeetings
 ```
 BIGBLUEBOT_ATTENDEE_PW=yourattendeepassword
