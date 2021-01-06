@@ -22,7 +22,7 @@ At the `.env` file you just copied, set:
 ```
 BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 ```
- - [optional] room name or meetingID
+ - [optional] room meetingID
 ```
 BIGBLUEBOT_ROOM=yourbigbluebuttonroomidentifier
 ```
@@ -30,6 +30,17 @@ If you would like the bots to join an existing room, you may fill
 out the password variables and use the `meetingID` value as `BIGBLUEBOT_ROOM`
 To find out these data, you may call the `getMeetings` route of your BBB
 instance as described [here](https://docs.bigbluebutton.org/dev/api.html#getmeetings).
+
+Attention: this is NOT the room ID of a room made bei Greenlight! If you want to join an existing room
+(this is good and impressive for watching the test in headless mode), use the next option.
+ - [optional] room name
+```
+BIGBLUEBOT_NAME=yourbigbluebuttonroomname
+```
+If you want to join a preexisting room, then use this option. YOU HAVE TO PROVIDE the serverAPI secret
+to work with this. When you give the (hopefully) unique room name and the server secret then all
+other credentials are extracted from the `getMeetings` route of the BBB instance.
+Here you can join any room only by knowing the `meetingName` like in getMeetings answer.
  - [optional] the `attendeePW` and `moderatorPW` as shown in getMeetings
 ```
 BIGBLUEBOT_ATTENDEE_PW=yourattendeepassword
