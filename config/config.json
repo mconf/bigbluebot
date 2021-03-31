@@ -1,7 +1,8 @@
 {
   "url": {
     "host": null,
-    "locale": "html5client/locale?locale",
+    "version": "2.2",
+    "basename": "html5client",
     "demo": "demo/demoHTML5.jsp?action=create",
     "user": {
       "param": "username"
