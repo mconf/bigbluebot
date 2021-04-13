@@ -71,6 +71,10 @@ BIGBLUEBOT_TOKEN=yourauthenticationtoken
 ```
 BIGBLUEBOT_LOG=info
 ```
+ - [optional] Ignore HTTPS errors during navigation
+```
+BIGBLUEBOT_IGNORE_HTTPS_ERRORS=false
+```
 
 ### Make a run script
 
