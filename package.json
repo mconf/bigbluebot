@@ -21,8 +21,8 @@
     "axios": "^0.21.1",
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
-    "faker": "^5.5.2",
-    "generic-pool": "^3.7.2",
+    "faker": "^5.5.3",
+    "generic-pool": "^3.7.8",
     "puppeteer": "^8.0.0"
   },
   "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
