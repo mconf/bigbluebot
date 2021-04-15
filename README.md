@@ -43,18 +43,6 @@ BIGBLUEBOT_SECRET=yourbigbluebuttonsecret
 ```
 BIGBLUEBOT_BOTS=1
 ```
-By default, there is a maximum of 10 bots per browser in the pool. to increase that
-number, add more browsers to the pool using `BIGBLUEBOT_POOL` or adjust the maximum pool
-size at `config/config.json`:
-```
-    "pool": {
-      "population": 1,
-      "size": {
-        "min": 1,
-        "max": 10
-      }
-    }
-```
  - [optional] time (milliseconds) between bots to join
 ```
 BIGBLUEBOT_WAIT=2000
@@ -66,10 +54,6 @@ BIGBLUEBOT_LIFE=60000
  - [optional] external browser to be used
 ```
 BIGBLUEBOT_BROWSER=/path/to/your/browser
-```
- - [optional] number of browser processes
-```
-BIGBLUEBOT_POOL=1
 ```
  - [optional] endpoint browser websocket to be used
 ```

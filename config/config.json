@@ -41,7 +41,6 @@
       "height": 720
     },
     "pool": {
-      "population": 1,
       "size": {
         "min": 1,
         "max": 10
