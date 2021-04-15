@@ -40,6 +40,18 @@ BIGBLUEBOT_MODERATOR_PW=yourmoderatorpassword
 BIGBLUEBOT_SECRET=yourbigbluebuttonsecret
 ```
  - [optional] number of bots to join the room
+ - by default, there is a maximum of 10 bots per browser in the pool. to increase that
+number, add more browsers to the pool using `BIGBLUEBOT_POOL` or adjust the maximum pool
+size at `config/config.json`:
+```
+    "pool": {
+      "population": 1,
+      "size": {
+        "min": 1,
+        "max": 10
+      }
+    }
+```
 ```
 BIGBLUEBOT_BOTS=1
 ```
