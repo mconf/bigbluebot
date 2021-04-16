@@ -146,6 +146,11 @@ const options = {
     attendee: 'yourattendeepassword',
   },
   moderator: true OR false,
+  userdata: {
+    "userdata-bbb_first_userdata": value,
+    "userdata-bbb_second_userdata": value,
+    "userdata-bbb_third_userdata": value,
+  },
 };
 
 bigbluebot.run(actions, options);
