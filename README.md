@@ -22,6 +22,10 @@ At the `.env` file you just copied, set:
 ```
 BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 ```
+ - your BigBlueButton server running version (currently 2.2 or 2.3)
+```
+BIGBLUEBOT_VERSION=2.2
+```
  - [optional] room name or meetingID
 ```
 BIGBLUEBOT_ROOM=yourbigbluebuttonroomidentifier
