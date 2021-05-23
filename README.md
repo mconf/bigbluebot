@@ -4,7 +4,7 @@ BigBlueButton bots
 
 ## Requirements
 
-A BigBlueButton server and it's API secret
+A BigBlueButton's server and API's secret
 
 ## Instructions
 
