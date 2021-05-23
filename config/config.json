@@ -3,7 +3,6 @@
     "host": null,
     "version": "2.2",
     "basename": "html5client",
-    "demo": "demo/demoHTML5.jsp?action=create",
     "user": {
       "param": "username"
     },

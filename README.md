@@ -4,7 +4,7 @@ BigBlueButton bots
 
 ## Requirements
 
-A BigBlueButton server with `bbb-demo` installed or setting the server API secret
+A BigBlueButton server and it's API secret
 
 ## Instructions
 
@@ -22,7 +22,11 @@ At the `.env` file you just copied, set:
 ```
 BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 ```
- - your BigBlueButton server running version (currently 2.2 or 2.3)
+ - your BigBlueButton server API secret
+```
+BIGBLUEBOT_SECRET=yourbigbluebuttonsecret
+```
+- your BigBlueButton server running version (currently 2.2 or 2.3)
 ```
 BIGBLUEBOT_VERSION=2.2
 ```
@@ -38,10 +42,6 @@ instance as described [here](https://docs.bigbluebutton.org/dev/api.html#getmeet
 ```
 BIGBLUEBOT_ATTENDEE_PW=yourattendeepassword
 BIGBLUEBOT_MODERATOR_PW=yourmoderatorpassword
-```
- - [optional] your BigBlueButton server API secret
-```
-BIGBLUEBOT_SECRET=yourbigbluebuttonsecret
 ```
  - [optional] number of bots to join the room
 ```
@@ -144,6 +144,7 @@ const actions = async page => {
 const options = {
   host: 'https://your.bigbluebutton.server',
   secret: 'yourbigbluebuttonsecret',
+  version: '2.2' OR '2.3',
   room: 'yourbigbluebuttonroomidentifier',
   password: {
     moderator: 'yourmoderatorpassword',
