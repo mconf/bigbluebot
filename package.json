@@ -18,12 +18,12 @@
     "puppeteer"
   ],
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.24.0",
     "crypto-js": "^4.1.1",
     "dotenv": "^10.0.0",
     "faker": "^5.5.3",
     "generic-pool": "^3.8.2",
-    "puppeteer": "^10.2.0"
+    "puppeteer": "^13.0.0"
   },
   "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
   "license": "MIT",
