@@ -1,6 +1,6 @@
 module.exports = {
   panel: {
-    name: 'app.userList.label',
+    name: 'app.chat.titlePublic',
     open: 'app.navBar.toggleUserList.ariaLabel',
     close: 'app.navBar.toggleUserList.ariaLabel',
   },
