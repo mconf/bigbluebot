@@ -11,5 +11,6 @@ module.exports = {
   },
   mute: 'app.actionsBar.muteLabel',
   unmute: 'app.actionsBar.unmuteLabel',
+  change: 'app.audio.changeAudioDevice',
   leave: 'app.audio.leaveAudio',
 };
