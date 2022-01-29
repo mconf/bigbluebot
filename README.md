@@ -26,9 +26,9 @@ BIGBLUEBOT_HOST=https://your.bigbluebutton.server
 ```
 BIGBLUEBOT_SECRET=yourbigbluebuttonsecret
 ```
-- your BigBlueButton server running version (currently 2.2 or 2.3)
+- your BigBlueButton server running version (currently 2.3 or 2.4)
 ```
-BIGBLUEBOT_VERSION=2.2
+BIGBLUEBOT_VERSION=2.4
 ```
  - [optional] room name or meetingID
 ```
