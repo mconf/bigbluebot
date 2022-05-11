@@ -10,7 +10,7 @@ A BigBlueButton's server and API's secret
 
 **IMPORTANT**: do not run this lib with `root` privileges
 
-`npm i bigbluebot`
+`npm i @mconf/bigbluebot`
 
 `cp node_modules/bigbluebot/.env.template .env`
 

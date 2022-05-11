@@ -1,6 +1,6 @@
 {
-  "name": "bigbluebot",
-  "version": "2.4.2",
+  "name": "@mconf/bigbluebot",
+  "version": "2.4.3",
   "description": "BigBlueButton bots",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,9 @@
   },
   "author": "Pedro Beschorner Marin <pedrobmarin@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/mconf/bigbluebot/issues"
   },
