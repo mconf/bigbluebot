@@ -10,7 +10,7 @@ A BigBlueButton's server and API's secret
 
 **IMPORTANT**: do not run this lib with `root` privileges
 
-`npm i bigbluebot`
+`npm i @mconf/bigbluebot`
 
 `cp node_modules/bigbluebot/.env.template .env`
 
@@ -83,7 +83,7 @@ Create your script, e.g. `run.js`:
 Join audio with microphone
 
 ```js
-const bigbluebot = require('bigbluebot');
+const bigbluebot = require('@mconf/bigbluebot');
 
 const actions = async page => {
   await bigbluebot.audio.modal.microphone(page);
@@ -95,7 +95,7 @@ bigbluebot.run(actions);
 Join audio as a listener
 
 ```js
-const bigbluebot = require('bigbluebot');
+const bigbluebot = require('@mconf/bigbluebot');
 
 const actions = async page => {
   await bigbluebot.audio.modal.listen(page);
@@ -107,7 +107,7 @@ bigbluebot.run(actions);
 Join video
 
 ```js
-const bigbluebot = require('bigbluebot');
+const bigbluebot = require('@mconf/bigbluebot');
 
 const actions = async page => {
   await bigbluebot.video.join(page);
@@ -119,7 +119,7 @@ bigbluebot.run(actions);
 Write in chat
 
 ```js
-const bigbluebot = require('bigbluebot');
+const bigbluebot = require('@mconf/bigbluebot');
 
 const actions = async page => {
   await bigbluebot.chat.send(page);
@@ -133,7 +133,7 @@ bigbluebot.run(actions);
 You can pass options as a run parameter
 
 ```js
-const bigbluebot = require('bigbluebot');
+const bigbluebot = require('@mconf/bigbluebot');
 
 const actions = async page => {
   await bigbluebot.audio.modal.microphone(page);
