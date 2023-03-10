@@ -1,7 +1,7 @@
 {
   "url": {
     "host": null,
-    "version": "2.4",
+    "version": "2.5",
     "basename": "html5client",
     "user": {
       "param": "username"
